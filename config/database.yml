@@ -46,4 +46,4 @@ test:
 #
 production:
   <<: *default
-  database: rails4_1_prod
+  database: rails4-1_prod
