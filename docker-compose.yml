@@ -11,6 +11,7 @@ web:
   environment:
     - RAILS_ENV=production
     - RACK_ENV=production
+    - MYSQL_HOST=mysql
     - MYSQL_USERNAME=root
     - MYSQL_PASSWORD=
   volumes:
