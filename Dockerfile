@@ -11,3 +11,5 @@ ADD Gemfile* $APP_HOME/
 RUN bundle install
 
 ADD . $APP_HOME
+
+EXPOSE 3000
